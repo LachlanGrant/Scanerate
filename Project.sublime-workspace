@@ -1,0 +1,261 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/lachlangrant/Documents/Dev/iOS Dev/ConvertNow/LICENCE.md",
+			"settings":
+			{
+				"buffer_size": 1198,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/lachlangrant/Documents/Dev/iOS Dev/ConvertNow/Classes/AppDelegate.h",
+			"settings":
+			{
+				"buffer_size": 296,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/lachlangrant/Library/Application Support/Sublime Text 2/Packages/User/ConvertNow.sublime-build",
+			"settings":
+			{
+				"buffer_size": 72,
+				"line_ending": "Unix",
+				"name": "untitled.sublime-build"
+			}
+		}
+	],
+	"build_system": "Packages/User/ConvertNow.sublime-build",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lachlangrant/Desktop/Symbols/82645FB2-AEED-3B7B-BABD-24EC579C7262.symbols",
+		"/Users/lachlangrant/Desktop/Firmwares.json",
+		"/Users/lachlangrant/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/lachlangrant/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/lachlangrant/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/lachlangrant/Library/Mobile Documents/com~apple~CloudDocs/Dev/iOS Dev/Knotty/iPhone/AppDelegate_Phone.m",
+		"/Users/lachlangrant/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/config/Swift/Default.sublime-commands",
+		"/Users/lachlangrant/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/config/Swift/Main.sublime-menu",
+		"/Users/lachlangrant/Library/Mobile Documents/com~apple~CloudDocs/Dev/iOS Dev/DevelopmentCheatSheets/DevelopmentCheatSheets/MainTableViewController.swift",
+		"/Users/lachlangrant/Library/Application Support/Sublime Text 2/Packages/User/Swift.sublime-build",
+		"/Users/lachlangrant/Library/Application Support/Sublime Text 2/Packages/User/untitled.sublime-build"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"38",
+			"z"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/lachlangrant/Documents/Dev/iOS Dev/ConvertNow/LICENCE.md",
+					"settings":
+					{
+						"buffer_size": 1198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								619,
+								619
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/lachlangrant/Documents/Dev/iOS Dev/ConvertNow/Classes/AppDelegate.h",
+					"settings":
+					{
+						"buffer_size": 296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/lachlangrant/Library/Application Support/Sublime Text 2/Packages/User/ConvertNow.sublime-build",
+					"settings":
+					{
+						"buffer_size": 72,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 199.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true
+}

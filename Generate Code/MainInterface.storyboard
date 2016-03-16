@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="M4Y-Lb-cyx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUe-pn-rqI">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Ate-KA-6TX"/>
+                                    <constraint firstAttribute="width" constant="320" id="s31-6W-GVc"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="si1-35-3Bs"/>
+                                </constraints>
+                                <state key="normal" title="Generate QR Code">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="tUe-pn-rqI" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="06g-A4-fvI"/>
+                            <constraint firstItem="tUe-pn-rqI" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="4Hl-t5-QM7"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="tUe-pn-rqI" secondAttribute="bottom" id="9iI-53-wyF"/>
+                            <constraint firstItem="tUe-pn-rqI" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="ROB-OF-2Ie"/>
+                            <constraint firstItem="tUe-pn-rqI" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="Uj7-q7-Igc"/>
+                            <constraint firstAttribute="trailing" secondItem="tUe-pn-rqI" secondAttribute="trailing" id="aqw-RR-uzH"/>
+                            <constraint firstAttribute="trailing" secondItem="tUe-pn-rqI" secondAttribute="trailing" id="iKP-9I-NJc"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="50"/>
+                    <connections>
+                        <outlet property="genButton" destination="tUe-pn-rqI" id="VF0-c4-Z9K"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="516" y="283.5"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
