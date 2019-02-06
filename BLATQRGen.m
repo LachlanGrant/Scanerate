@@ -15,8 +15,6 @@
     if ([barcodeMessage isEqualToString:@""]) {
         //We need to fix this
         barcodeMessage = @"There was no text entered :(";
-    } else {
-        //sweet
     }
     
     CIFilter *filter = [CIFilter filterWithName:@"CIQRCodeGenerator"];
@@ -29,9 +27,10 @@
     CIImage *outputImage = [filter outputImage];
     
     CIContext *context = [CIContext contextWithOptions:nil];
-    CGImageRef cgImage = [context createCGImage:outputImage
+    CGImageRef cgImage = [context createCGImage:outputImage fromRect: CGRectMake(0.0, 0.0, 500.0, 500.0)];
     
     image = [UIImage imageWithCGImage:cgImage scale:1.0 orientation:UIImageOrientationUp];
+                          
     
     UIImage *resized = [self image:image withQuality:kCGInterpolationNone rate:5.0];
 
